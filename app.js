@@ -8,7 +8,7 @@ const render = require("./lib/htmlRenderer");
 
 const path = require('path');
 const OUTPUT_DIR = path.resolve(__dirname, "output");
-const outputPath = require('outputPath');
+const outputPath = path.join(__dirname, 'team.html');
 
 let userList = []
 let userId = 1
