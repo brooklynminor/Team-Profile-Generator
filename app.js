@@ -1,11 +1,10 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 
-const Employee = require("./lib/Employee");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
 const Manager = require("./lib/Manager");
-const renderer = require("./lib/htmlRenderer");
+const render = require("./lib/htmlRenderer");
 
 const path = require('path');
 const OUTPUT_DIR = path.resolve(__dirname, "output");
